@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avito</title>
+</head>
+<style>
+       .header {
+            background-color: rgb(171, 171, 174);
+            display: flex; 
+            
+            align-items: center;
+            padding : 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header-links a {
+            background-color: rgb(171, 171, 174);
+            color: rgb(0, 0, 0);
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .header-links a:hover {
+            background-color: rgb(71, 154, 154);
+        }
+        .header-links button {
+            background-color: red;
+            border : none;
+            padding : 5px 15px;
+            border-radius: 15px;
+        }
+        .header-links button:hover {
+            background-color: rgb(185, 34, 34);
+        }
+       
+        .card {
+            width: 220px;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 45px;
+        }
+        .btn {
+            border: none;
+            background-color: rgb(136, 136, 255);
+            color: black;
+            padding: 5px 15px;
+            border-radius: 10px;
+            margin: 5px 3px;
+        }
+        .card-img-top {
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+        }
+        .btn:hover {
+            background-color: rgb(34, 34, 216);
+            color: rgb(94, 127, 237);
+        }
+        .card-location {
+            display: flex;
+            align-items: center;
+            gap : 5px;
+        }
+        img.location {
+            width: 30px;
+            height: 30px;
+        }
+        .card2 {
+              width: 220px;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 45px;
+           
+        }
+          .contener {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+           
+        }
+            .card3 {
+                width: 220px;
+                height: auto;
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 45px;
+            
+            }
+            .contener2 {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .cardx {
+                width: 220px;
+                height: auto;
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 45px;
+            }
+            .cardx2 {
+                width: 220px;
+                height: auto;
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 45px;
+            }
+             .publish-btn {
+            background-color: rgb(255, 34, 34);
+            color: black;
+            margin-left: 500px;
+            justify-content: center;
+            border: none;
+            padding: 5px 15px;
+            
+            }
+            @media (max-width: 900px){
+                .contener > div, .contener2 > div {
+                    flex: 1 1 45%;
+                    max-width: 45%;
+                }
+            }
+            @media (max-width: 600px){
+                .contener > div, .contener2 > div {
+                    flex: 1 1 100%;
+                    max-width: 100%;
+                }
+            }
+</style>
+<body>
+    <div class="header">
+        <img  src ="images/avito-logo-removebg-preview.png" alt="logo" width = "120"
+        style="margin-right: 30px;">
+        <div class ="header-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <button>Sign In</button>
+            <button class="publish-btn">Publish your products</button>
+        </div>
+        </div>
+        <div class="contener">
+        <div class="card" style="width: 350px;margin-top: 45px;">
+  
+    <img src="images/bmw.jpg" width= "100%" height="260px" alt="..." class="card-img-top">
+  <div class="card-body">
+    <h3 class="card-title">BMW Série 2 Diesel Automatique 2016 </h3>
+    <p>price: <strong>25 000 MAD</strong></p><br>
+         <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+    <p class="card-text">A car used for one year, with a speed ranging between 100 and 120 km/h, and seating four or more people.</p>
+    <button class="btn"> search </button>
+  </div>
+</div>
+<div class="card2" style="width: 350px;margin-top: 45px;">
+    <img src="images/PC_Gamer.jpg" width= "100%" height="260px" alt="..." class="card-img-top">
+    <div class="card-body">
+        <h3 class="card-title">PC Gamer:  i7 512GB, 32RAM,  10 GR</h3>
+        <p>price: <strong>12 000 MAD</strong></p>
+        <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+        <p class="card-text">A high-performance gaming computer with an Intel i7 processor, 512GB SSD, 32GB RAM, and a powerful graphics card for an immersive gaming experience.</p>
+        <button class="btn"> search </button>
+
+</div>
+</div>
+<div class = "card3" style="width: 350px;margin-top: 45px;">
+<img src="images/motorcycle.jpeg" width= "100%" height="260px" alt="..." class="card-img-top">
+    <div class="card-body">
+        <h3 class="card-title">motorcycle 130 speed, 2021 </h3>
+        <p>price: <strong>30 000 MAD</strong></p>
+        <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+        <p class="card-text">a good quality and fantastic sespantion with high speed  between 120kh/130kh </p>
+        <button class="btn"> search </button>
+        </div>
+</div>
+</div>
+<div class ="contener2">
+    <div class="cardx" style="width: 350px;margin-top: 45px;"> 
+        <img src="images/TV.jpg" width= "100%" height="260px" alt="..." class="card-img-top">
+    <div class="card-body">
+        <h3 class="card-title">TV 4K Ultra HD, 2021 </h3>
+        <p>price: <strong>9 000 MAD</strong></p>
+        <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+        <p class="card-text">Experience stunning visuals and vibrant colors with this 4K Ultra HD TV, perfect for movies and gaming.</p>
+        <button class="btn"> search </button>
+</div>
+</div>
+<div class="cardx2" style="width: 350px;margin-top: 45px;"> 
+    <img src="images/macnock.jpg" width= "100%" height="260px" alt="..." class="card-img-top">
+    <div class="card-body">
+        <h3 class="card-title">MacBook Pro 2021</h3>
+        <p>price: <strong>6 000 MAD</strong></p>
+        <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+        <p class="card-text">A powerful laptop with an M1 chip, 16GB RAM, and 512GB SSD for seamless performance.</p>
+        <button class="btn"> search </button>
+</div>
+</div>
+<div class="cardx2" style="width: 350px;margin-top: 45px;"> 
+    <img src="images/house.webp" width= "100%" height="260px" alt="..." class="card-img-top">
+    <div class="card-body">
+        <h3 class="card-title">house 4 rooms</h3>
+        <p>price: <strong>500 0000 MAD</strong></p>
+        <img src="images/icone-localisation-illustration-vectorielle-remplie-noir-symbole-localisation-fond-blanc-peut-etre-utilise-web-mobile_775815-724.jpg" 
+            alt="location" width="30px" height="30px" class ="img location">
+            <strong class = "card-location">maroc</strong>
+        <p class="card-text">A spacious house with 4 rooms, perfect for families looking for comfort and style.</p>
+        <button class="btn"> search </button>
+</div>
+</div>
+</div>
+</body>
+</html>
