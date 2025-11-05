@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electrostore</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', 'Cairo', sans-serif;
+            background-color: #f5f6fa;
+        }
+
+        
+        .header {
+            background: linear-gradient(90deg, #2a2f9c, #4b6cb7);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 60px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 110px;
+            transition: transform 0.3s ease;
+        }
+
+        .header img:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffeb3b;
+            transform: translateY(-2px);
+        }
+
+        .search-box input {
+            padding: 8px 15px;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input:focus {
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+        }
+
+       
+        .hero {
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        
+     
+
+        
+        footer {
+            background: #2a2f9c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="images/logo2.png" alt="logo">
+        <div class="nav-links">
+            <a href="market.html">Home</a>
+            <a href="aboutus.html">About US</a>
+            <a href="product.html">Product</a>
+            <a href="contactus.html">Contact US</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="search...">
+        </div>
+    </div>
+
+   
+    <div class="hero">
+        <h1>Welcome to Electro Market</h1>
+        <p>We bring you the best electronic products — from the latest smartphones and laptops to smart home devices — all in one place with great prices and fast delivery.</p>
+    </div>
+
+    
+    
+
+    
+    <footer>
+        © 2025 Electro Market - All rights reserved.<br>
+        created by devloper: Houssam Hamdan ^_^<br>
+       <b>more updates comming soon </b> <br>
+        
+    </footer>
+</body>
+</html>

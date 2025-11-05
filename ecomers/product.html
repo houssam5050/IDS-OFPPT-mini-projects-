@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2a2f9c;
+            margin-top: 30px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 40px 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .product h3 {
+            color: #333;
+            margin: 15px 0 8px;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 14px;
+            margin: 0 15px 10px;
+        }
+
+        .price {
+            color: #2a2f9c;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #2a2f9c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #4b6cb7;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Electronic Products</h1>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://razacomputers.in/wp-content/uploads/2025/02/Sony-VAIO-SVE1513CYNB.jpeg" alt="Laptop">
+            <h3>Laptop Pro 15"</h3>
+            <p>Powerful laptop for work, study, and gaming.</p>
+            <div class="price">$899</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://fr.moviles.com/fotos/nokia-1100-1149-g.jpg" alt="Smartphone">
+            <h3>Smartphone X</h3>
+            <p>High-performance phone with a stunning display.</p>
+            <div class="price">$699</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i5.walmartimages.com/asr/7348e500-9536-4ee6-9117-1bc0949fe008.4d224836742f0cc1d9529023d521e2cf.jpeg" alt="Gaming Console">
+            <h3>Game Console</h3>
+            <p>Next-generation gaming console with 4K graphics.</p>
+            <div class="price">$499</div>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>
